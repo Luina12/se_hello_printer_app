@@ -28,4 +28,3 @@ docker_push: docker_build
 	sudo docker tag hello-world-printer $(TAG); \
 	docker push $(TAG); \
 	docker logout;
-	
